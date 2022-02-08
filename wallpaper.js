@@ -47,8 +47,8 @@ function generateValues( width ){
 function draw(){
 	const canvas = document.querySelector( 'canvas' );
 	const ctx = canvas.getContext( '2d' );
-	const width = 3840;
-	const height = 2160;
+	const width = 5120;
+	const height = 2880;
 
 	const values = getDataFromUrl() ?? generateValues( width );
 	const {
